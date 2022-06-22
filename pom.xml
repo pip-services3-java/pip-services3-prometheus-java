@@ -110,6 +110,7 @@
                 <version>3.4.0</version>
                 <configuration>
                     <reportOutputDirectory>${basedir}/docs</reportOutputDirectory>
+					<destDir>.</destDir>
                     <additionalOptions>
                         <additionalOption>-Xdoclint:none</additionalOption>
                     </additionalOptions>
